@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import NavTabs from './Components/NavTabs';
 import AboutMe from './Components/Pages/AboutMe';
 // import Portfolio from './Components/Pages/Portfolio';
-// import Contact from './Components/Pages/Contact';
+import Contact from './Components/Pages/Contact';
 // import Resume from './Components/Pages/Resume';
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
   //   if (currentPage === 'Portfolio') {
   //     return <Portfolio />;
   //   }
-  //   if (currentPage === 'Contact') {
-  //     return <Contact />;
-  //   }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
   //   return <Resume />;
   };
 
