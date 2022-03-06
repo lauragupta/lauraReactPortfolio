@@ -33,7 +33,7 @@ const projects = [
     "alt": "Portfolio",
     "description": "My full stack portfolio",
     "image": portfolioMain,
-    "website": "https://watch.screencastify.com/v/https://lauraguptaportfoliofullstack.herokuapp.com/",
+    "website": "https://lauraguptaportfoliofullstack.herokuapp.com/",
     "github": "https://github.com/lauragupta/portfolioFullStack",
     "technology": "Handlebars, Heroku, JavaScript, MySQL, Sequelize, Express, Mysqul2 NPM, Bootstrap, HTML",
     "softskill": "Designing and building the protfolio and it's content"
