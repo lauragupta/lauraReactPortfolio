@@ -30,7 +30,7 @@ export default function Contact() {
         <h1>Contact Me</h1>
         <form className="form contact-form">
           <div className="form-group">
-              <label for="contactName">name:</label>
+              <label htmlFor="contactName">name:</label>
               <input className="form-control" type="text" onBlur={(event) => onblurName(event)}/>
               {errorName && (
                 <div className="formErr">
@@ -39,7 +39,7 @@ export default function Contact() {
               )}
           </div>
           <div className="form-group">
-              <label for="contactEmail">email:</label>
+              <label htmlFor="contactEmail">email:</label>
               <input className="form-control" type="email" onBlur={(event) => onblurEmail(event)} />
               {errorEmail && (
                 <div className="formErr">
@@ -48,7 +48,7 @@ export default function Contact() {
               )}
           </div>
           <div className="form-group">
-              <label for="message">Message</label>
+              <label htmlFor="message">Message</label>
               <textarea className="form-control" type="text" id="message" onBlur={(event) => onblurMessage(event)} />
               {errorMessage && (
                 <div className="formErr">
