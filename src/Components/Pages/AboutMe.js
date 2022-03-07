@@ -1,15 +1,23 @@
 import React from 'react';
 import photo from '../Pages/Napa-1.jpg';
+import './AboutMe.css';
+
 
 export default function AboutMe() {
+
+
   return (
     <div className="container">
-      <h1>About Me</h1>
+      <div className='row'>
+        <h1 className='column offset-md-1'>About Me</h1>
+      </div>
       <div className="row">
-        <div className="col-5">
-          <img src={photo} alt="Laura" />
+        <div className="column col-12 col-md-5 offset-md-1">
+          <div>
+            <img className='myPhoto' src={photo} alt="Laura" />
+          </div>
         </div>
-        <div className="col-5">
+        <div className="column col-12 col-md-5">
           <p>
             I am a full stack web developer. One of my core values is to always be learning new things. I also really enjoy helping people and teaching/mentoring others. I have done a lot of independent work as well as groupwork and paraprograming.  
           </p>
