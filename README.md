@@ -23,13 +23,13 @@ This is a live site, so you can check it out for yourself! Just follow the link.
 
 [Live Portfolio site!](https://lauragupta.github.io/lauraReactPortfolio/)
 
-Here is my Main Portfolio Page
+Here is my About Me Portfolio page.
 
-![Portfolio About Me Page coming soon]()
+![Portfolio About Me Page coming soon](aboutMe.png)
 
-Here is my Portfolio Projects page
+Here is my Portfolio Projects page.
 
-![Recent Projects Portfolio Page coming soon]()
+![Recent Projects Portfolio Page coming soon](portfolioProjects.png)
 
 
 
@@ -46,7 +46,7 @@ Here is my Portfolio Projects page
 
 * **Laura Gupta** 
 
-- [Link to Portfolio Site](https://lauraguptaportfoliofullstack.herokuapp.com)
+- [Link to Portfolio Site](https://lauragupta.github.io/lauraReactPortfolio/)
 - [Link to Github](https://github.com/lauragupta?tab=repositories)
 - [Link to LinkedIn](https://www.linkedin.com/in/laura-gupta-5a277158/)
 
