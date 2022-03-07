@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../Pages/Napa-1.jpg';
+import photo from './images/laura.jpg';
 import './AboutMe.css';
 
 
