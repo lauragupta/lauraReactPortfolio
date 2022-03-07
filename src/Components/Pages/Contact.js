@@ -65,7 +65,7 @@ export default function Contact() {
         </div>
         <div className="otherContact column col-10 col-md-5 offset-1">
             <h5 className="main-info">Or You can contact me at...</h5>
-            <h6 className="main-info">codinglauragupta@gmail.com</h6>
+            <h6 className="main-info" ><a href="mailto:codinglauragupta@gmail.com">codinglauragupta@gmail.com</a></h6>
             <h6 className="main-info">‪(408)479-4045‬</h6>
         </div>
       </div>
