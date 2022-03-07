@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import AboutMe from './Components/Pages/AboutMe';
 import Portfolio from './Components/Pages/Portfolio';
 import Contact from './Components/Pages/Contact';
-// import Resume from './Components/Pages/Resume';
+import Resume from './Components/Pages/Resume';
 import Footer from './Components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,7 +21,7 @@ function App() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-  //   return <Resume />;
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
