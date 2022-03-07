@@ -5,7 +5,7 @@ import FeedMe from './images/FeedMe.png';
 import RegexMyEmail from './images/RegexMyEmail.png';
 import noteTaker from './images/noteTaker.png';
 import portfolioMain from './images/portfolioMain.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Portfolio.css';
 
 const projects = [
   {
@@ -29,7 +29,7 @@ const projects = [
     "softskill": "Teamwork, Communication,  Learning New Technologies, Website Planning, Speaking and Presenting, "
   },
   {
-    "title": "Full Stack Portfolio - Full Stack",
+    "title": "Full Stack Portfolio - Full Stack App",
     "alt": "Portfolio",
     "description": "My full stack portfolio",
     "image": portfolioMain,
@@ -72,14 +72,14 @@ const projects = [
 
 function makeCard(project) {
   return(
-    <div className="card">
-      <img className="card-img-top" src={project.image} alt={project.alt} />
-      <div className="card-body">
-        <h5 className="card-title">{project.title}</h5>
-        <a href={project.website} target="_blank" className="btn btn-primary">Deployed Site</a>
-        <a href={project.github} target="_blank" className="btn btn-primary">GitHub Repository</a>
+      <div className="card column col-11 col-md-5 col-lg-3 p-3 m-3" >
+        <img className="card-img-top" src={project.image} alt={project.alt} />
+        <div className="card-body">
+          <h5 className="card-title">{project.title}</h5>
+          <a href={project.website} target="_blank" className="btn btn-primary cardButton">View  Site</a>
+          <a href={project.github} target="_blank" className="btn btn-primary cardButton">View Code</a>
+        </div>
       </div>
-    </div>
   )
 }
 
@@ -88,7 +88,9 @@ function Portfolio() {
   return(
     <div className="container">
       <h1>Portfolio Projects</h1>
-      {cards}
+      <div className='row portfolioRow'>
+        {cards}
+      </div>
     </div>
   )
 }

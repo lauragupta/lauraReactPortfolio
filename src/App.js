@@ -27,9 +27,9 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='app'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+        {renderPage()}
       <Footer />
     </div>
   );
