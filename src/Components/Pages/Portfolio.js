@@ -5,9 +5,20 @@ import FeedMe from './images/FeedMe.png';
 import RegexMyEmail from './images/RegexMyEmail.png';
 import noteTaker from './images/noteTaker.png';
 import portfolioMain from './images/portfolioMain.png';
+import projectEarth from './images/projectEarth.png';
 import './Portfolio.css';
 
 const projects = [
+  {
+    "title": "Project Earth - Full Stack App",
+    "alt": "Project Earth",
+    "description": "This app is about social responsibility for the environment.  You can view challenges added by other people. If signed up/logged in, you can create a challenge for yourself and other to make incremental lifestyle changes to have a better realtionship with the Earth.",
+    "image": projectEarth,
+    "website": "https://projectearthecochallenge.herokuapp.com/",
+    "github": "https://github.com/lauragupta/projectEarth",
+    "technology": "React, JavaScript, SASS, CSS, MongoDB, Mongoose, React Router, Express, JWT, bcrypt, dotenv, Bootstrap, Heroku",
+    "softskill": "GRIT!!!, Persistance, Independently Learning New Technologies, Website Planning, Speaking and Presenting, "
+  },
   {
     title: "Tech Blog - Full Stack App",
     alt: "Tech Blog",

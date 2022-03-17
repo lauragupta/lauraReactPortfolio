@@ -29,8 +29,8 @@ export default function Contact() {
     <div className='container'>
       <div className="row">
         <h1 className='column offset-1'>Contact Me</h1>
-        <div className='column col-10 col-md-5 offset-1'>
-          <form className="form contact-form">
+        {/* <div className='column col-10 col-md-5 offset-1'> */}
+          {/* <form className="form contact-form">
             <div className="form-group">
                 <label htmlFor="contactName">name:</label>
                 <input className="form-control" type="text" onBlur={(event) => onblurName(event)}/>
@@ -61,10 +61,10 @@ export default function Contact() {
             <div className="form-group">
                 <button className="contactSubmit btn btn-primary" type="submit">Submit</button>
             </div>
-          </form>
-        </div>
+          </form> */}
+        {/* </div> */}
         <div className="otherContact column col-10 col-md-5 offset-1">
-            <h5 className="main-info">Or You can contact me at...</h5>
+            <h5 className="main-info">Contact me at...</h5>
             <h6 className="main-info" ><a href="mailto:codinglauragupta@gmail.com">codinglauragupta@gmail.com</a></h6>
             <h6 className="main-info">‪(408)479-4045‬</h6>
         </div>
