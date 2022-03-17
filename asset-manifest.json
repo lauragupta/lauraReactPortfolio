@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lauraReactPortfolio/static/css/main.5e874f80.css",
-    "main.js": "/lauraReactPortfolio/static/js/main.3f31f494.js",
+    "main.js": "/lauraReactPortfolio/static/js/main.96e81a7d.js",
     "static/js/787.cad554f5.chunk.js": "/lauraReactPortfolio/static/js/787.cad554f5.chunk.js",
     "static/media/portfolioMain.png": "/lauraReactPortfolio/static/media/portfolioMain.440129fa4da021ba7cb8.png",
     "static/media/getMoving.png": "/lauraReactPortfolio/static/media/getMoving.a3ebee1f60ac6d064b43.png",
@@ -9,15 +9,16 @@
     "static/media/laura.jpg": "/lauraReactPortfolio/static/media/laura.0b666907c7f87d3c1648.jpg",
     "static/media/techBlogger.png": "/lauraReactPortfolio/static/media/techBlogger.eaf236535e381bc8a8c2.png",
     "static/media/noteTaker.png": "/lauraReactPortfolio/static/media/noteTaker.60e28ec6d5ed592f3e07.png",
+    "static/media/projectEarth.png": "/lauraReactPortfolio/static/media/projectEarth.20bbee292e338baefb74.png",
     "static/media/RegexMyEmail.png": "/lauraReactPortfolio/static/media/RegexMyEmail.437cc8bf50bab8ec78d6.png",
     "static/media/myResume.pdf": "/lauraReactPortfolio/static/media/myResume.d24ea754c2a994a0f488.pdf",
     "index.html": "/lauraReactPortfolio/index.html",
     "main.5e874f80.css.map": "/lauraReactPortfolio/static/css/main.5e874f80.css.map",
-    "main.3f31f494.js.map": "/lauraReactPortfolio/static/js/main.3f31f494.js.map",
+    "main.96e81a7d.js.map": "/lauraReactPortfolio/static/js/main.96e81a7d.js.map",
     "787.cad554f5.chunk.js.map": "/lauraReactPortfolio/static/js/787.cad554f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e874f80.css",
-    "static/js/main.3f31f494.js"
+    "static/js/main.96e81a7d.js"
   ]
 }
